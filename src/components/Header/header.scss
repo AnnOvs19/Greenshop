@@ -1,3 +1,47 @@
 .header {
-    background-color: aqua;
+    width: 100%;
+    padding: 26px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #46a3598d;
+
+    &__nav {
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            color: #3D3D3D;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+
+            li {
+                cursor: pointer;
+                transition: 0.4s;
+
+                &:hover {
+                    color: #46A358;
+                    transition: 0.4s;
+                    font-weight: 500;
+
+                }
+            }
+        }
+    }
+
+    &__user {
+        display: flex;
+        gap: 30px;
+
+        img {
+            cursor: pointer;
+            transition: 0.4s;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.4s;
+            }
+        }
+    }
 }
