@@ -1,12 +1,19 @@
 import React from 'react';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+import Catalog from '../../modules/Catalog/components/Catalog/Catalog';
 
 import "./home.scss";
 
+
+
 const Home = (props) => {
     return (
-        <div>
-            <h1>Hello World from MyComponent</h1>
-        </div>
+        <>
+            <Header />
+            <Catalog />
+            <Footer />
+        </>
     );
 };
 

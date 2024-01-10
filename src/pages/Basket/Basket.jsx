@@ -1,11 +1,15 @@
 import React from 'react';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 import "./basket.scss";
 
 const Basket = (props) => {
     return (
         <div>
-            <h1>Hello World from MyComponent</h1>
+            <Header />
+            <p style={{ marginTop: 300 }}>basket</p>
+            <Footer />
         </div>
     );
 };
