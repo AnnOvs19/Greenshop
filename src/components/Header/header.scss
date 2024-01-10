@@ -1,9 +1,14 @@
 .header {
     width: 100%;
-    padding: 26px 0;
+    padding: 26px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    max-width: 1200px;
+    z-index: 100;
+    background-color: white;
     border-bottom: 1px solid #46a3598d;
 
     &__nav {

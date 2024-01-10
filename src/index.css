@@ -8,6 +8,10 @@
     font-style: normal;
 }
 
+body {
+    min-height: 100vh;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
