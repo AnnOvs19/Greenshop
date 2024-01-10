@@ -8,6 +8,7 @@ const Basket = (props) => {
     return (
         <div>
             <Header />
+            <p style={{ marginTop: 300 }}>basket</p>
             <Footer />
         </div>
     );

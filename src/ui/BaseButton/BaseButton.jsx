@@ -2,11 +2,11 @@ import React from 'react';
 
 import "./baseButton.scss";
 
-const BaseButton = (props) => {
+const BaseButton = ({ styles, children }) => {
     return (
-        <div>
-            <h1>Hello World from MyComponent</h1>
-        </div>
+        <button className={styles ? `${styles} base-btn` : "base-btn"}>
+            {children}
+        </button>
     );
 };
 
