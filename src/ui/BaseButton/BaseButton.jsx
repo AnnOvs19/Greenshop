@@ -2,9 +2,9 @@ import React from 'react';
 
 import "./baseButton.scss";
 
-const BaseButton = ({ styles, children }) => {
+const BaseButton = ({ styles, children, ...props }) => {
     return (
-        <button className={styles ? `${styles} base-btn` : "base-btn"}>
+        <button className={styles ? `${styles} base-btn` : "base-btn"} {...props} >
             {children}
         </button>
     );
