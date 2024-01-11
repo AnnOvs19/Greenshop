@@ -8,10 +8,12 @@
     font-style: normal;
     text-decoration: none;
     color: #3D3D3D;
+
 }
 
 body {
     min-height: 100vh;
+    background-color: #FBFBFB;
 }
 
 .container {

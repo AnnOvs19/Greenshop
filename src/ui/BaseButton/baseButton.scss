@@ -8,4 +8,11 @@
     font-weight: 700;
     line-height: 20px;
     max-width: 150px;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+        background-color: #337441;
+        transition: 0.4s;
+    }
 }
