@@ -1,0 +1,43 @@
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 344px;
+    padding: 10px 0 35px 0;
+    border: 1px solid rgb(227, 227, 227);
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+        border: 1px solid #46a359d3;
+        transition: 0.4s;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        color: #337441;
+        margin-bottom: 20px;
+    }
+
+    img {
+        margin-bottom: 20px;
+        max-height: 250px;
+        ;
+    }
+
+    &__button {
+        max-width: fit-content;
+    }
+}

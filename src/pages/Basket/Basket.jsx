@@ -3,12 +3,13 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 
 import "./basket.scss";
+import ShopingCart from '../../modules/ShoppingCart/components/ShopingCart/ShopingCart';
 
 const Basket = (props) => {
     return (
         <div>
             <Header />
-            <p style={{ marginTop: 300 }}>basket</p>
+            <ShopingCart />
             <Footer />
         </div>
     );

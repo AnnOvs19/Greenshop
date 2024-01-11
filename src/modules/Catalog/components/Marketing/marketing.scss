@@ -1,12 +1,17 @@
 .marketing {
-    margin-top: 100px;
+    margin-top: 130px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    background-color: #FBFBFB;
+    background-color: white;
+    border: 1px solid rgb(227, 227, 227);
 
+    &:hover {
+        border: 1px solid #46a359d3;
+        transition: 0.4s;
+    }
 
     &__content {
         display: flex;
