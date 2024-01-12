@@ -1,12 +1,17 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
-import { getBasketProducts } from '../../store/basketSlise';
+import BasketItem from '../BasketItem/BasketItem';
 
-const ShopingCart = (props) => {
-    const basket = useSelector(getBasketProducts);
+import "./shopingCart.scss"
+
+
+const ShopingCart = ({ basket }) => {
     return (
-        <div>
-
+        <div className='shopingCart'>
+            {Array.isArray(basket) && basket.map((product) => {
+                return (
+                    <BasketItem cardData={product} />
+                )
+            })}
         </div>
     );
 };
