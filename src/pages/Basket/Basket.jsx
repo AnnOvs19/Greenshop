@@ -4,12 +4,15 @@ import Footer from '../../components/Footer/Footer';
 
 import "./basket.scss";
 import ShopingCart from '../../modules/ShoppingCart/components/ShopingCart/ShopingCart';
+import { useSelector } from 'react-redux';
+import { getBasketProducts } from '../../modules/ShoppingCart/store/basketSlise';
 
 const Basket = (props) => {
+    const basketProducts = useSelector(getBasketProducts);
     return (
         <div>
             <Header />
-            <ShopingCart />
+            <ShopingCart basket={basketProducts} />
             <Footer />
         </div>
     );

@@ -11,11 +11,11 @@ const CardItem = ({ cardData }) => {
     const dispatch = useDispatch();
 
     return (
-        <div key={cardData.id} className='card-item'>
+        <div key={cardData.id} className='cardItem'>
             <img src={cardData.image} alt="#" />
             <h3>{cardData.title}</h3>
             <p>${cardData.price.toFixed(2)}</p>
-            <BaseButton styles={"card-item__button"} onClick={() => { dispatch(addProduct(cardData)) }} >Add to Basket</BaseButton>
+            <BaseButton styles={"cardItem__button"} onClick={() => { dispatch(addProduct(cardData)) }} >Add to Basket</BaseButton>
         </div>
     );
 };
