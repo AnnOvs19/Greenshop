@@ -1,0 +1,21 @@
+.shopingCart {
+    margin: 120px 0 200px 0;
+
+    &__basket {
+        table {
+            width: 100%;
+
+            thead {
+                text-align: center;
+            }
+
+            th {
+                padding-bottom: 15px;
+
+                &:first-child {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
