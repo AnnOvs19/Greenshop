@@ -9,12 +9,22 @@ export const basketSlice = createSlice({
     initialState,
     reducers: {
         addProduct: (state, action) => {
-            state.basket.push(action.payload)
+            let product = state.basket.find((item) => item.id === action.payload.id)
+            if (product) {
+                return
+            }
+            else {
+                state.basket.push(action.payload)
+            }
+
+        },
+        deleteProduct: (state, action) => {
+            state.basket = state.basket.filter((product) => product.id !== action.payload)
         }
     }
 })
 
-export const { addProduct } = basketSlice.actions;
+export const { addProduct, deleteProduct } = basketSlice.actions;
 
 export const getBasketProducts = (state) => state.basket.basket;
 

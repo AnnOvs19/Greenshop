@@ -1,0 +1,129 @@
+.shopingCart {
+    margin: 120px 0 200px 0;
+
+    h6 {
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        align-items: flex-end;
+    }
+
+    &__basket {
+        &-btn {
+            display: flex;
+            max-width: 100%;
+            justify-content: center;
+            margin-top: 40px;
+
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            width: 100%;
+
+            thead {
+                text-align: center;
+            }
+
+            th {
+                padding-bottom: 15px;
+
+                &:first-child {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    &__modal {
+        &-head {
+            border-bottom: 1px solid #46a3598d;
+
+            h4 {
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 16px;
+                margin-bottom: 15px;
+            }
+        }
+
+        &-body {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            span {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                margin-bottom: 6px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+            }
+
+            h3 {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                color: #46A358;
+            }
+        }
+    }
+
+
+    .cupone {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+        &__btn {
+            border-radius: 0;
+            height: 45px;
+        }
+
+        div {
+            border: 1px solid #46A358;
+            width: 332px;
+            height: 19px;
+            display: flex;
+            padding: 12px 10px;
+            align-items: center;
+
+            input {
+                border: none;
+                width: 100%;
+                background-color: transparent;
+                outline: none;
+            }
+
+
+        }
+    }
+
+    .order-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.modal__btn {
+    max-width: 100%;
+    border-radius: 0;
+}
