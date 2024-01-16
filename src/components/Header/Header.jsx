@@ -3,11 +3,17 @@ import React from 'react';
 import headerLogo from "../../assets/icons/header-logo.svg";
 import headerSearch from "../../assets/icons/header-search.svg";
 import headerBasket from "../../assets/icons/header-basket.svg";
+import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { getBasketProducts } from '../../modules/ShoppingCart/store/basketSlise';
 
 import "./header.scss";
-import { Link } from 'react-router-dom';
+
 
 const Header = (props) => {
+
+    const basket = useSelector(getBasketProducts)
+
     return (
         <header className='header'>
             <img src={headerLogo} alt="#" />
@@ -25,6 +31,7 @@ const Header = (props) => {
                 <img src={headerSearch} alt="#" />
                 <Link to={"/basket"}>
                     <img src={headerBasket} alt="#" />
+                    <p className='header__user-count'>{basket.length}</p>
                 </Link>
             </div>
         </header>
