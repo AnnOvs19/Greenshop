@@ -1,27 +1,24 @@
 import React, { useState } from 'react';
 import basketItemDelite from "../../../../assets/icons/basketItem-delite.svg";
 import BaseButton from '../../../../ui/BaseButton/BaseButton';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 
 import "./basketItem.scss"
-import { deleteProduct } from '../../store/basketSlise';
+import { addCount, deleteProduct, getTotalPrice, removeCount } from '../../store/basketSlise';
 
 
 const BasketItem = ({ cardData }) => {
     const dispatch = useDispatch();
-    const [quantity, setQuantity] = useState(1);
 
     function addQuantity() {
-        setQuantity(quantity + 1)
+        dispatch(addCount(cardData.id))
     };
 
+
+
     function deleteQuantity() {
-        if (quantity === 1) {
-            dispatch(deleteProduct(cardData.id))
-        } else {
-            setQuantity(quantity - 1)
-        }
+        dispatch(removeCount(cardData.id))
     }
 
     return (
@@ -39,14 +36,14 @@ const BasketItem = ({ cardData }) => {
             <td>
                 <div>
                     <BaseButton styles={"basketItem__quantity"} onClick={deleteQuantity}>-</BaseButton>
-                    <p>{quantity}</p>
+                    <p>{cardData.quantity}</p>
                     <BaseButton styles={"basketItem__quantity"} onClick={addQuantity}>+</BaseButton>
                 </div>
             </td>
 
             <td>
                 <div>
-                    <span>${(cardData.price * quantity).toFixed(2)}</span>
+                    <span>${(cardData.price * cardData.quantity).toFixed(2)}</span>
                 </div>
             </td>
 

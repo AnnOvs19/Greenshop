@@ -24,7 +24,7 @@ const CardItem = ({ cardData }) => {
             <img src={cardData.image} alt="#" />
             <h3>{cardData.title}</h3>
             <p>${cardData.price.toFixed(2)}</p>
-            <BaseButton styles={disable ? "cardItem__button disable" : "cardItem__button"} onClick={addProductBasket} disabled={disable} >{textBtn}</BaseButton>
+            <BaseButton styles={disable ? "cardItem__button disable" : "cardItem__button"} onClick={addProductBasket} disabled={disable}>{textBtn}</BaseButton>
         </div>
     );
 };

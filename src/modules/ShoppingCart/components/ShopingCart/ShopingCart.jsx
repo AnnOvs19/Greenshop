@@ -32,14 +32,14 @@ const ShopingCart = ({ basket }) => {
                     </thead>
                     <tbody>
                         {Array.isArray(basket) && basket.map((product) => {
-                            totalPrice += product.price
+                            totalPrice += product.price * product.quantity
                             return (
                                 <BasketItem cardData={product} />
                             )
                         })}
                     </tbody>
                 </table>
-                <div className=''>
+                <div>
                     <BaseButton styles={"shopingCart__basket-btn"} onClick={() => setModalActive(true)} >Pay for the order</BaseButton>
                 </div>
 
