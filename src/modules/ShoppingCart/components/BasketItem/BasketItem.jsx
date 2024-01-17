@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import basketItemDelite from "../../../../assets/icons/basketItem-delite.svg";
 import BaseButton from '../../../../ui/BaseButton/BaseButton';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 
 import "./basketItem.scss"
-import { addCount, deleteProduct, getTotalPrice, removeCount } from '../../store/basketSlise';
+import { addCount, deleteProduct, removeCount } from '../../store/basketSlise';
 
 
 const BasketItem = ({ cardData }) => {

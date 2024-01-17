@@ -11,6 +11,7 @@ const ShopingCart = ({ basket }) => {
     let totalPrice = 0;
 
     if (Array.isArray(basket) && basket.length == 0) {
+        //Для отрисовки пустой корзины
         return (
             <div className='shopingCart'>
                 <h6>There are no items in the cart</h6>
@@ -31,6 +32,7 @@ const ShopingCart = ({ basket }) => {
                         </tr>
                     </thead>
                     <tbody>
+                        {/* Total price - глобальная общая стоимость к оплате */}
                         {Array.isArray(basket) && basket.map((product) => {
                             totalPrice += product.price * product.quantity
                             return (

@@ -9,11 +9,12 @@ import "./cardItem.scss";
 
 const CardItem = ({ cardData }) => {
     const dispatch = useDispatch();
+    // Следующие константы для работы с состоянием кнопки
     const [disable, setDisable] = useState(false)
     const [textBtn, setTextBtn] = useState("Add to Basket")
 
     function addProductBasket() {
-        dispatch(addProduct(cardData));
+        dispatch(addProduct(cardData)); //кард дату получаем из пропсов
         setDisable(true);
         setTextBtn("Аdded to cart")
     }
@@ -24,7 +25,9 @@ const CardItem = ({ cardData }) => {
             <img src={cardData.image} alt="#" />
             <h3>{cardData.title}</h3>
             <p>${cardData.price.toFixed(2)}</p>
-            <BaseButton styles={disable ? "cardItem__button disable" : "cardItem__button"} onClick={addProductBasket} disabled={disable}>{textBtn}</BaseButton>
+            <BaseButton styles={disable ? "cardItem__button disable" : "cardItem__button"} onClick={addProductBasket} disabled={disable}>
+                {textBtn}
+            </BaseButton>
         </div>
     );
 };

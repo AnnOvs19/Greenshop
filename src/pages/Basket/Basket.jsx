@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import { getBasketProducts } from '../../modules/ShoppingCart/store/basketSlise';
 
 const Basket = (props) => {
-    const basketProducts = useSelector(getBasketProducts);
+    const basketProducts = useSelector(getBasketProducts); //getBasketProducts возвращает массив корзины
     return (
         <div>
             <Header />
