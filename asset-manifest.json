@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Greenshop/static/css/main.4a99c6c0.css",
+    "main.js": "/Greenshop/static/js/main.aba56c1a.js",
+    "static/media/marketing-lily.png": "/Greenshop/static/media/marketing-lily.3761b6b792995d57d3ec.png",
+    "static/media/header-logo.svg": "/Greenshop/static/media/header-logo.87be95c2628e2ca3d8b2b6d048b7600d.svg",
+    "static/media/footer-logo.svg": "/Greenshop/static/media/footer-logo.43b1f8d3fe48e577963f802f5c661b0e.svg",
+    "static/media/header-basket.svg": "/Greenshop/static/media/header-basket.09239ca9f4a6ad54d83bfdaf6507c28e.svg",
+    "static/media/header-search.svg": "/Greenshop/static/media/header-search.95b87ea07f5675ca0ce30e8c52dd973f.svg",
+    "static/media/footer-call.svg": "/Greenshop/static/media/footer-call.c97f36e9d01636af50e2804c2b6bf1c9.svg",
+    "static/media/footer-loc.svg": "/Greenshop/static/media/footer-loc.c2dddd15f05e5190c673e5951c09ad93.svg",
+    "static/media/basketItem-delite.svg": "/Greenshop/static/media/basketItem-delite.e52fe753f7c443639711349f8e687e06.svg",
+    "static/media/footer-message.svg": "/Greenshop/static/media/footer-message.0ec607c91a425b46838a17ec37bbf8ff.svg",
+    "index.html": "/Greenshop/index.html",
+    "main.4a99c6c0.css.map": "/Greenshop/static/css/main.4a99c6c0.css.map",
+    "main.aba56c1a.js.map": "/Greenshop/static/js/main.aba56c1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a99c6c0.css",
+    "static/js/main.aba56c1a.js"
+  ]
+}
