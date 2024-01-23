@@ -2,7 +2,7 @@
   "name": "green_shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AnnOvs19.github.io/Greenshop",
+  "homepage": "https://annovs19.github.io/Greenshop/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
