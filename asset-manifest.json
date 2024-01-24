@@ -1,8 +1,16 @@
 {
   "files": {
     "main.css": "/Greenshop/static/css/main.4a99c6c0.css",
-    "main.js": "/Greenshop/static/js/main.aba56c1a.js",
+    "main.js": "/Greenshop/static/js/main.a061fb82.js",
     "static/media/marketing-lily.png": "/Greenshop/static/media/marketing-lily.3761b6b792995d57d3ec.png",
+    "static/media/catalog-palm8.png": "/Greenshop/static/media/catalog-palm8.f8fbb58eff0b07d308b7.png",
+    "static/media/catalog-violet3.png": "/Greenshop/static/media/catalog-violet3.d86b652d4bf4edc143ea.png",
+    "static/media/catalog-lily4.png": "/Greenshop/static/media/catalog-lily4.2dfe585beb992318af04.png",
+    "static/media/catalog-plant6.png": "/Greenshop/static/media/catalog-plant6.bb7e388f55d1226d7524.png",
+    "static/media/catalog-begonia2.png": "/Greenshop/static/media/catalog-begonia2.beb934164d2e61979d7f.png",
+    "static/media/catalog-evegreen9.png": "/Greenshop/static/media/catalog-evegreen9.f74e54681869c16e0a53.png",
+    "static/media/catalog-bromeliad5.png": "/Greenshop/static/media/catalog-bromeliad5.fba3d0985cbce8db8d4c.png",
+    "static/media/catalog-fern7.png": "/Greenshop/static/media/catalog-fern7.612c166b7be456b34f57.png",
     "static/media/header-logo.svg": "/Greenshop/static/media/header-logo.87be95c2628e2ca3d8b2b6d048b7600d.svg",
     "static/media/footer-logo.svg": "/Greenshop/static/media/footer-logo.43b1f8d3fe48e577963f802f5c661b0e.svg",
     "static/media/header-basket.svg": "/Greenshop/static/media/header-basket.09239ca9f4a6ad54d83bfdaf6507c28e.svg",
@@ -13,10 +21,10 @@
     "static/media/footer-message.svg": "/Greenshop/static/media/footer-message.0ec607c91a425b46838a17ec37bbf8ff.svg",
     "index.html": "/Greenshop/index.html",
     "main.4a99c6c0.css.map": "/Greenshop/static/css/main.4a99c6c0.css.map",
-    "main.aba56c1a.js.map": "/Greenshop/static/js/main.aba56c1a.js.map"
+    "main.a061fb82.js.map": "/Greenshop/static/js/main.a061fb82.js.map"
   },
   "entrypoints": [
     "static/css/main.4a99c6c0.css",
-    "static/js/main.aba56c1a.js"
+    "static/js/main.a061fb82.js"
   ]
 }
