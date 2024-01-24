@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Barberton Daisy",
         "price": 119.00,
-        "image": "product-images/catalog-daisy1.png",
+        "image": "./public/product-images/catalog-lily4.png",
         "brand": 1
     },
     {
