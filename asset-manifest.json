@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Greenshop/static/css/main.cd4a4259.css",
+    "main.css": "/Greenshop/static/css/main.072c7fe5.css",
     "main.js": "/Greenshop/static/js/main.e7c31005.js",
     "static/media/marketing-lily.png": "/Greenshop/static/media/marketing-lily.3761b6b792995d57d3ec.png",
     "static/media/catalog-palm8.png": "/Greenshop/static/media/catalog-palm8.f8fbb58eff0b07d308b7.png",
@@ -20,11 +20,11 @@
     "static/media/basketItem-delite.svg": "/Greenshop/static/media/basketItem-delite.e52fe753f7c443639711349f8e687e06.svg",
     "static/media/footer-message.svg": "/Greenshop/static/media/footer-message.0ec607c91a425b46838a17ec37bbf8ff.svg",
     "index.html": "/Greenshop/index.html",
-    "main.cd4a4259.css.map": "/Greenshop/static/css/main.cd4a4259.css.map",
+    "main.072c7fe5.css.map": "/Greenshop/static/css/main.072c7fe5.css.map",
     "main.e7c31005.js.map": "/Greenshop/static/js/main.e7c31005.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd4a4259.css",
+    "static/css/main.072c7fe5.css",
     "static/js/main.e7c31005.js"
   ]
 }
