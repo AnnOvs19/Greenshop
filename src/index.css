@@ -19,4 +19,20 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+
+    @media (max-width: 1030px) {
+        width: 95%;
+    }
+
+
+    @media (max-width: 430px) {
+        width: 90%;
+    }
+
+
+    @media (max-width: 320px) {
+        width: 100%;
+    }
+
+
 }

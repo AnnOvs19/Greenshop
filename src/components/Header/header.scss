@@ -71,4 +71,51 @@
             }
         }
     }
+
+    @media (max-width: 1030px) {
+        padding: 22px 10px;
+        width: 93.2%;
+    }
+
+    @media (max-width: 780px) {
+        padding: 20px 10px;
+        width: 91.8%;
+
+        &__nav {
+            ul {
+                font-size: 14px;
+            }
+        }
+    }
+
+    @media (max-width: 430px) {
+        padding: 16px 10px;
+        width: 84.8%;
+
+        img {
+            height: 30px;
+        }
+
+        &__nav {
+            ul {
+                &:nth-child(1) {
+                    display: none;
+                }
+            }
+        }
+
+        &__user {
+            gap: 10px;
+
+            img {
+                max-height: 20px;
+            }
+        }
+    }
+
+    @media (max-width: 320px) {
+        padding: 12px 10px;
+        width: 91.8%;
+    }
+
 }

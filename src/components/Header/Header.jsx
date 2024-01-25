@@ -16,7 +16,7 @@ const Header = (props) => {
 
     return (
         <header className='header'>
-            <img src={headerLogo} alt="#" />
+            <Link to={"/"}><img src={headerLogo} alt="#" /></Link>
             <nav className='header__nav'>
                 <ul>
 

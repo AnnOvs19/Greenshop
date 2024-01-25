@@ -48,6 +48,76 @@
 
     img {
         width: 470px;
-        // height: 518px;
     }
+
+    @media (max-width: 1030px) {
+        width: 100%;
+        gap: 0px;
+
+        &__content {
+            padding-left: 40px;
+
+            span {
+                font-size: 12px;
+                margin-bottom: 7px;
+            }
+
+            h1 {
+                font-size: 45px;
+                line-height: 55px;
+            }
+
+            p {
+                font-size: 12px;
+                width: 547px;
+                margin-bottom: 25px;
+            }
+
+
+        }
+
+        img {
+            width: 365px;
+        }
+    }
+
+    @media (max-width: 780px) {
+        padding: 10px;
+        width: 97%;
+        gap: 0px;
+
+        &__content {
+            padding-left: 30px;
+
+            span {
+                font-size: 10px;
+                margin-bottom: 7px;
+            }
+
+            h1 {
+                font-size: 35px;
+                line-height: 45px;
+            }
+
+            p {
+                font-size: 10px;
+                width: 407px;
+                margin-bottom: 25px;
+            }
+
+            button {
+                padding: 8px 22px;
+                font-size: 13px;
+            }
+        }
+
+        img {
+            width: 305px;
+        }
+    }
+
+    @media (max-width: 430px) {
+        display: none;
+    }
+
 }

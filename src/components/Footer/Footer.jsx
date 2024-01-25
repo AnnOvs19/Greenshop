@@ -11,21 +11,22 @@ const Footer = (props) => {
     return (
         <footer className='footer'>
             <img src={footerLogo} alt="#" />
+            <div className='footer-content'>
+                <div className='footer-content__item'>
+                    <img src={footerLoc} alt="#" />
+                    <span>70 West Buckingham Ave.
+                        Farmingdale, NY 11735</span>
+                </div>
 
-            <div className='footer__item'>
-                <img src={footerLoc} alt="#" />
-                <span>70 West Buckingham Ave.
-                    Farmingdale, NY 11735</span>
-            </div>
+                <div className='footer-content__item'>
+                    <img src={footerMessage} alt="#" />
+                    <span>contact@greenshop.com</span>
+                </div>
 
-            <div className='footer__item'>
-                <img src={footerMessage} alt="#" />
-                <span>contact@greenshop.com</span>
-            </div>
-
-            <div className='footer__item'>
-                <img src={footerCall} alt="#" />
-                <span>+88 01911 717 490</span>
+                <div className='footer-content__item'>
+                    <img src={footerCall} alt="#" />
+                    <span>+88 01911 717 490</span>
+                </div>
             </div>
         </footer>
     );

@@ -10,4 +10,35 @@
         justify-content: center;
         gap: 80px;
     }
+
+    @media (max-width: 1030px) {
+        &__products {
+            gap: 56px;
+        }
+    }
+
+    @media (max-width: 780px) {
+        &__products {
+            gap: 38px;
+        }
+    }
+
+    @media (max-width: 430px) {
+        &__products {
+            gap: 20px;
+        }
+    }
+
+    @media (max-width: 380px) {
+        &__products {
+            gap: 15px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        &__products {
+            gap: 10px;
+        }
+    }
+
 }
