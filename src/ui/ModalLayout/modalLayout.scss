@@ -18,6 +18,23 @@
         width: 30%;
         background-color: #FBFBFB;
     }
+
+    @media (max-width: 980px) {
+        &__content {
+            padding: 40px;
+            width: 50%;
+            background-color: #FBFBFB;
+        }
+    }
+
+    @media (max-width: 500px) {
+        &__content {
+            padding: 40px;
+            width: 70%;
+            background-color: #FBFBFB;
+        }
+    }
+
 }
 
 .activeModal {
